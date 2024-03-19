@@ -112,11 +112,12 @@
                 android:layout_weight="2"
                 >
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/montserrat_bold"
                     android:textColor="@color/purple"
                     android:text="30 Desember 2024"
+                    android:layout_weight="1"
                     android:textSize="10dp"
                     android:layout_gravity="center"
                     />
@@ -125,6 +126,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:gravity="center"
+                    android:layout_weight="2"
                     >
                     <ImageButton
                         android:layout_width="wrap_content"
@@ -182,12 +184,13 @@
                 android:layout_weight="2"
                 >
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/montserrat_bold"
                     android:textColor="@color/purple"
                     android:text="30 Desember 2024"
                     android:textSize="10dp"
+                    android:layout_weight="1"
                     android:layout_gravity="center"
                     />
                 <CheckBox
@@ -205,9 +208,10 @@
             <ImageButton
                 android:id="@+id/imageButton"
                 android:layout_width="wrap_content"
-                android:layout_marginLeft="310dp"
+                android:layout_marginEnd="30"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
                 android:layout_marginBottom="100dp"
                 android:src="@drawable/plus"
                 style="@style/ImageButtonNoBackground"/>
