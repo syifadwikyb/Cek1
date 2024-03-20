@@ -31,11 +31,13 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="63dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="@font/montserrat"
                 android:textColor="@color/purple"
                 android:background="@drawable/button2"
                 android:paddingLeft="15dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
                 android:inputType="text"
                 />
         </androidx.cardview.widget.CardView>
@@ -64,10 +66,12 @@
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
-                        android:layout_height="63dp"
+                        android:layout_height="wrap_content"
                         android:fontFamily="@font/montserrat"
                         android:textColor="@color/purple"
                         android:background="@drawable/button2"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
                         android:inputType="datetime" />
                 </androidx.cardview.widget.CardView>
             </com.google.android.material.textfield.TextInputLayout>
@@ -102,12 +106,14 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="63dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="@font/montserrat"
                 android:textColor="@color/purple"
                 android:background="@drawable/button2"
                 android:inputType="text"
                 android:paddingLeft="15dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
                 />
         </androidx.cardview.widget.CardView>
 
