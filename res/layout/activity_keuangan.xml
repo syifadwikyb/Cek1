@@ -169,33 +169,14 @@
                 android:layout_weight="2"
                 >
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:fontFamily="@font/montserrat_bold"
                     android:textColor="@color/purple"
                     android:text="30 Desember 2024"
                     android:textSize="10dp"
-                    android:layout_gravity="center"
-                    />
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
                     android:gravity="center"
-                    >
-                    <ImageButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/edit"
-                        android:padding="10dp"
-                        android:layout_weight="1"
-                        style="@style/ImageButtonNoBackground"
-                        />
-                    <CheckBox
-                        android:layout_width="18dp"
-                        android:layout_height="18dp"
-                        android:checked="false"/>
-                </LinearLayout>
+                    />
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -239,18 +220,14 @@
                 android:layout_weight="2"
                 >
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:fontFamily="@font/montserrat_bold"
                     android:textColor="@color/purple"
                     android:text="30 Desember 2024"
                     android:textSize="10dp"
-                    android:layout_gravity="center"
+                    android:gravity="center"
                     />
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:checked="false" />
             </LinearLayout>
         </LinearLayout>
 
