@@ -37,7 +37,7 @@ public class tugas1 extends AppCompatActivity {
         keuangan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (tugas1.this, keuangan.class);
+                Intent intent = new Intent (tugas1.this, com.example.home.keuangan.class);
                 startActivity(intent);
             }
         });
