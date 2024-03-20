@@ -57,7 +57,7 @@ public class keuangan extends AppCompatActivity {
 
 
         // Inflate layout untuk dialog
-        View view = getLayoutInflater().inflate(R.layout.activity_popup_layout, null);
+        View view = getLayoutInflater().inflate(R.layout.activity_popup_keuangan, null);
         builder.setView(view);
 
         // Munculkan dialog
