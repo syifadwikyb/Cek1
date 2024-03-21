@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Uang Masuk"
+            android:text="Keterangan"
             android:textColor="@color/purple"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/montserrat_bold"/>
@@ -93,7 +93,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Keterangan"
+            android:text="Jumlah Uang"
             android:textColor="@color/purple"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/montserrat_bold"/>
@@ -110,12 +110,34 @@
                 android:fontFamily="@font/montserrat"
                 android:textColor="@color/purple"
                 android:background="@drawable/button2"
-                android:inputType="text"
+                android:inputType="number"
                 android:paddingLeft="15dp"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
                 />
         </androidx.cardview.widget.CardView>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Pemasukan"
+                android:fontFamily="@font/montserrat_bolditalic"
+                android:gravity="center_vertical"
+                android:textColor="@color/purple"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pengeluaran"
+                android:fontFamily="@font/montserrat_bolditalic"
+                android:gravity="center_vertical"
+                android:textColor="@color/purple"/>
+        </RadioGroup>
 
         <LinearLayout
             android:layout_width="match_parent"
