@@ -205,28 +205,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageButton
-                android:id="@+id/imageButton"
-                android:layout_width="wrap_content"
-                android:layout_marginEnd="30"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginBottom="100dp"
-                android:src="@drawable/plus"
-                style="@style/ImageButtonNoBackground"/>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
                 android:layout_alignParentBottom="true"
-                android:paddingTop="10dp"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                android:paddingBottom="20dp"
-                android:background="@color/grey"
+                android:background="@drawable/border_grey"
                 >
                 <ImageButton
                     android:id="@+id/list"
@@ -234,6 +221,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:src="@drawable/list"
+                    android:layout_marginTop="15dp"
                     style="@style/ImageButtonNoBackground"/>
                 <ImageButton
                     android:id="@+id/keuangan"
@@ -241,6 +229,21 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:src="@drawable/babi"
+                    android:layout_marginTop="15dp"
+                    style="@style/ImageButtonNoBackground"/>
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/plus"
+                    style="@style/ImageButtonNoBackground"/>
+                <ImageButton
+                    android:id="@+id/schedule"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/calender_button"
+                    android:layout_marginTop="15dp"
                     style="@style/ImageButtonNoBackground"/>
                 <ImageButton
                     android:id="@+id/profile"
@@ -248,6 +251,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:src="@drawable/profile"
+                    android:layout_marginTop="15dp"
                     style="@style/ImageButtonNoBackground"/>
             </LinearLayout>
         </RelativeLayout>
